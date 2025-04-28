@@ -24,8 +24,35 @@
 ## Аналіз структури файлу package.json
 
 1. Опишіть призначення полів файлу `package.json`:
-   - `name`, `author`, `description`, `version`, `license`, `repository`, `scripts`, `dependencies`, `devDependencies`.
+   - **`name`**: Ім'я проєкту, унікальне для npm.
+- **`author`**: Інформація про автора (ім'я, email).
+- **`description`**: Короткий опис проєкту.
+- **`version`**: Версія проєкту у форматі SemVer (`MAJOR.MINOR.PATCH`).
+- **`license`**: Ліцензія, що визначає умови використання коду.
+- **`repository`**: Посилання на репозиторій (тип і URL).
+- **`scripts`**: Команди для автоматизації задач (наприклад, `dev`, `build`).
+- **`dependencies`**: Бібліотеки, необхідні для роботи проєкту в продакшені.
+- **`devDependencies`**: Бібліотеки для розробки та тестування, не потрібні в продакшені.
 2. Проаналізуйте залежності у `dependencies` та `devDependencies`, поясніть логіку їх класифікації.
+  ### `dependencies`
+Бібліотеки для роботи проєкту в продакшені:
+- **UI та стан**: `react`, `react-dom`, `@tanstack/react-query`, `@tanstack/react-router`, `@tanstack/react-table`, `react-hook-form`, `@hookform/resolvers`, `zustand` — для інтерфейсу, маршрутизації, таблиць, форм, управління станом.
+- **Графіки**: `@nivo/bar`, `@nivo/core`, `@nivo/line`, `@nivo/pie` — візуалізація даних.
+- **Локалізація та утиліти**: `i18next`, `i18next-browser-languagedetector`, `i18next-http-backend`, `react-i18next`, `dayjs`, `zod` — переклади, дати, валідація.
+
+### `devDependencies`
+Інструменти для розробки та тестування:
+- **Сборка**: `vite`, `@vitejs/plugin-react-swc`, `typescript`, `postcss`, `tailwindcss` — збірка та стилі.
+- **Лінтинг/форматування**: `eslint`, `prettier`, `@typescript-eslint/*` — перевірка та форматування коду.
+- **Тестування**: `vitest`, `@playwright/test`, `@testing-library/*`, `@faker-js/faker` — юніт- та E2E-тести.
+- **Storybook**: `storybook`, `@storybook/*` — розробка компонентів.
+- **DevTools**: `@tanstack/*-devtools`, `@hookform/devtools` — відладка.
+- **Контроль версій**: `husky`, `commitizen`, `@commitlint/*` — перевірка комітів.
+- **UI для розробки**: `@headlessui/react`, `@heroicons/react` — компоненти та іконки.
+
+### Логіка класифікації
+- **`dependencies`**: Для функціональності проєкту в продакшені (UI, маршрутизація, графіки).
+- **`devDependencies`**: Для розробки, тестування, збірки, не включаються в продакшен, щоб зменшити розмір збірки.
 
 ## Семантичне версіонування (SemVer)
 
