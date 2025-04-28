@@ -51,4 +51,15 @@
   <img src="https://github.com/volAndr1/Practice-2/blob/ec922fcbbe6dbe2a0d0476b1e20f838021cd240e/phpstorm64_EnplUvEU8l.png" alt="Скріншот проекту" width="500"/>
 </div>
 2. Задайте значення змінної на різних рівнях (ОС, сесія терміналу, окремий запуск скрипта, `.env` файл) та дослідіть пріоритетність їх застосування.
-3. Зафіксуйте результати.
+<div align="center">
+  <img src="https://github.com/volAndr1/Practice-2/blob/ec922fcbbe6dbe2a0d0476b1e20f838021cd240e/phpstorm64_EnplUvEU8l.png" alt="Скріншот проекту" width="500"/>
+</div>
+<div align="center">
+  <img src="https://github.com/volAndr1/Practice-2/blob/ec922fcbbe6dbe2a0d0476b1e20f838021cd240e/phpstorm64_EnplUvEU8l.png" alt="Скріншот проекту" width="500"/>
+</div>
+<div align="center">
+  <img src="https://github.com/volAndr1/Practice-2/blob/ec922fcbbe6dbe2a0d0476b1e20f838021cd240e/phpstorm64_EnplUvEU8l.png" alt="Скріншот проекту" width="500"/>
+</div>
+<div align="center">
+  <img src="https://github.com/volAndr1/Practice-2/blob/ec922fcbbe6dbe2a0d0476b1e20f838021cd240e/phpstorm64_EnplUvEU8l.png" alt="Скріншот проекту" width="500"/>
+</div>
