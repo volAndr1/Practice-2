@@ -52,14 +52,14 @@
 </div>
 2. Задайте значення змінної на різних рівнях (ОС, сесія терміналу, окремий запуск скрипта, `.env` файл) та дослідіть пріоритетність їх застосування.
 <div align="center">
-  <img src="https://github.com/volAndr1/Practice-2/blob/ec922fcbbe6dbe2a0d0476b1e20f838021cd240e/phpstorm64_EnplUvEU8l.png" alt="Скріншот проекту" width="500"/>
+  <img src="https://github.com/volAndr1/Practice-2/blob/5a8bf4f69bd383a4c45a9e98ec3b867b1b8d0257/SystemPropertiesAdvanced_bXosOdvzRV.png" alt="Скріншот проекту" width="500"/>
 </div>
 <div align="center">
-  <img src="https://github.com/volAndr1/Practice-2/blob/ec922fcbbe6dbe2a0d0476b1e20f838021cd240e/phpstorm64_EnplUvEU8l.png" alt="Скріншот проекту" width="500"/>
+  <img src="https://github.com/volAndr1/Practice-2/blob/5a8bf4f69bd383a4c45a9e98ec3b867b1b8d0257/phpstorm64_yNihsVpmLa.png" alt="Скріншот проекту" width="500"/>
 </div>
 <div align="center">
-  <img src="https://github.com/volAndr1/Practice-2/blob/ec922fcbbe6dbe2a0d0476b1e20f838021cd240e/phpstorm64_EnplUvEU8l.png" alt="Скріншот проекту" width="500"/>
+  <img src="https://github.com/volAndr1/Practice-2/blob/5a8bf4f69bd383a4c45a9e98ec3b867b1b8d0257/phpstorm64_OIqvykgKva.png" alt="Скріншот проекту" width="500"/>
 </div>
 <div align="center">
-  <img src="https://github.com/volAndr1/Practice-2/blob/ec922fcbbe6dbe2a0d0476b1e20f838021cd240e/phpstorm64_EnplUvEU8l.png" alt="Скріншот проекту" width="500"/>
+  <img src="https://github.com/volAndr1/Practice-2/blob/1166250a9449d89c8ccb7489a28a6171c39eff7f/phpstorm64_tfETAQVSYa.png" alt="Скріншот проекту" width="500"/>
 </div>
